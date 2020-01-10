@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,9 @@
 		26BA0C1423C85C0D00B70C02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BA0C1323C85C0D00B70C02 /* main.m */; };
 		26BA0C1E23C85C0D00B70C02 /* YunWeiAppiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BA0C1D23C85C0D00B70C02 /* YunWeiAppiOSTests.m */; };
 		26BA0C2923C85C0D00B70C02 /* YunWeiAppiOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BA0C2823C85C0D00B70C02 /* YunWeiAppiOSUITests.m */; };
+		26BA0C3923C85DF500B70C02 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BA0C3823C85DF500B70C02 /* LoginViewController.m */; };
+		26BA0C3C23C86C5900B70C02 /* ForgotPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BA0C3B23C86C5900B70C02 /* ForgotPasswordViewController.m */; };
+		E85E7BF3D87375DCA270701A /* libPods-YunWeiAppiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D1507B34DF9BB760E9B24D /* libPods-YunWeiAppiOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,14 @@
 		26BA0C2423C85C0D00B70C02 /* YunWeiAppiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YunWeiAppiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26BA0C2823C85C0D00B70C02 /* YunWeiAppiOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YunWeiAppiOSUITests.m; sourceTree = "<group>"; };
 		26BA0C2A23C85C0D00B70C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26BA0C3623C85CA700B70C02 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		26BA0C3723C85DF500B70C02 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		26BA0C3823C85DF500B70C02 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		26BA0C3A23C86C5900B70C02 /* ForgotPasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForgotPasswordViewController.h; sourceTree = "<group>"; };
+		26BA0C3B23C86C5900B70C02 /* ForgotPasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForgotPasswordViewController.m; sourceTree = "<group>"; };
+		9D9A366E414A2CE7D7FBCDFD /* Pods-YunWeiAppiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YunWeiAppiOS.release.xcconfig"; path = "Target Support Files/Pods-YunWeiAppiOS/Pods-YunWeiAppiOS.release.xcconfig"; sourceTree = "<group>"; };
+		A7D1507B34DF9BB760E9B24D /* libPods-YunWeiAppiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YunWeiAppiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC963DB662214561DF729E6B /* Pods-YunWeiAppiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YunWeiAppiOS.debug.xcconfig"; path = "Target Support Files/Pods-YunWeiAppiOS/Pods-YunWeiAppiOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E85E7BF3D87375DCA270701A /* libPods-YunWeiAppiOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +97,8 @@
 				26BA0C1C23C85C0D00B70C02 /* YunWeiAppiOSTests */,
 				26BA0C2723C85C0D00B70C02 /* YunWeiAppiOSUITests */,
 				26BA0C0223C85C0C00B70C02 /* Products */,
+				EDABB20AD8AB16ED82CD379A /* Pods */,
+				A5E6044693EFE8B3791B49F6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +124,11 @@
 				26BA0C0F23C85C0D00B70C02 /* LaunchScreen.storyboard */,
 				26BA0C1223C85C0D00B70C02 /* Info.plist */,
 				26BA0C1323C85C0D00B70C02 /* main.m */,
+				26BA0C3623C85CA700B70C02 /* PrefixHeader.pch */,
+				26BA0C3723C85DF500B70C02 /* LoginViewController.h */,
+				26BA0C3823C85DF500B70C02 /* LoginViewController.m */,
+				26BA0C3A23C86C5900B70C02 /* ForgotPasswordViewController.h */,
+				26BA0C3B23C86C5900B70C02 /* ForgotPasswordViewController.m */,
 			);
 			path = YunWeiAppiOS;
 			sourceTree = "<group>";
@@ -132,6 +151,23 @@
 			path = YunWeiAppiOSUITests;
 			sourceTree = "<group>";
 		};
+		A5E6044693EFE8B3791B49F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7D1507B34DF9BB760E9B24D /* libPods-YunWeiAppiOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDABB20AD8AB16ED82CD379A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC963DB662214561DF729E6B /* Pods-YunWeiAppiOS.debug.xcconfig */,
+				9D9A366E414A2CE7D7FBCDFD /* Pods-YunWeiAppiOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26BA0C2D23C85C0D00B70C02 /* Build configuration list for PBXNativeTarget "YunWeiAppiOS" */;
 			buildPhases = (
+				1FC5C322981E92BB946F49C0 /* [CP] Check Pods Manifest.lock */,
 				26BA0BFD23C85C0C00B70C02 /* Sources */,
 				26BA0BFE23C85C0C00B70C02 /* Frameworks */,
 				26BA0BFF23C85C0C00B70C02 /* Resources */,
+				20F7CEAB9E8905A966A6AAE1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,13 +295,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1FC5C322981E92BB946F49C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YunWeiAppiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20F7CEAB9E8905A966A6AAE1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YunWeiAppiOS/Pods-YunWeiAppiOS-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YunWeiAppiOS/Pods-YunWeiAppiOS-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YunWeiAppiOS/Pods-YunWeiAppiOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		26BA0BFD23C85C0C00B70C02 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26BA0C3923C85DF500B70C02 /* LoginViewController.m in Sources */,
 				26BA0C0923C85C0C00B70C02 /* ViewController.m in Sources */,
 				26BA0C1423C85C0D00B70C02 /* main.m in Sources */,
+				26BA0C3C23C86C5900B70C02 /* ForgotPasswordViewController.m in Sources */,
 				26BA0C0623C85C0C00B70C02 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,9 +515,12 @@
 		};
 		26BA0C2E23C85C0D00B70C02 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC963DB662214561DF729E6B /* Pods-YunWeiAppiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4679Q79YV9;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YunWeiAppiOS/PrefixHeader.pch";
 				INFOPLIST_FILE = YunWeiAppiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,9 +534,12 @@
 		};
 		26BA0C2F23C85C0D00B70C02 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D9A366E414A2CE7D7FBCDFD /* Pods-YunWeiAppiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4679Q79YV9;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YunWeiAppiOS/PrefixHeader.pch";
 				INFOPLIST_FILE = YunWeiAppiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

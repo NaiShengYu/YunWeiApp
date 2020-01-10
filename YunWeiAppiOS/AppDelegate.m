@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "LoginViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    _window =[[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    _window.backgroundColor = [UIColor whiteColor];
+    //    [_window.layer addSublayer:[PublicObject ColorGradualChangeWithArray:GradualColors Frame:_window.bounds type:1]];
+    [_window makeKeyAndVisible];
+    
+    _window.rootViewController =[[UINavigationController alloc]initWithRootViewController:[LoginViewController new]];
+    
     return YES;
 }
 
